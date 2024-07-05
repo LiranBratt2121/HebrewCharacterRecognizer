@@ -1,6 +1,7 @@
 ﻿# HebrewCharacterRecognizer
 
-This project is designed to recognize Hebrew characters from object images. It includes functionalities for processing images to remove backgrounds, manipulating the images, adding white backgrounds, and predicting the Hebrew character in the image using a YOLO model.
+This project is designed to recognize Hebrew characters from object images. It includes functionalities for processing images to remove backgrounds, manipulating the images, adding white backgrounds, and predicting the Hebrew character in the image using a YOLO [model](https://universe.roboflow.com/safrus/hebrew-letters-jvsur).
+
 
 ![An 'alef' object](example_images/test1.jpeg)
 ![Output image1](example_images/output1.png)
