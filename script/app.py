@@ -1,5 +1,5 @@
 from rembg import remove
-from ultralytics import YOLO
+from ultralytics.ultralytics.models import YOLO
 from PIL import Image
 
 """
@@ -11,7 +11,7 @@ from PIL import Image
 
 model = YOLO("weights/best.pt")
 
-input_image = Image.open('example_images/test4.jpeg')
+input_image = Image.open(input("Enter the path to the input image: "))
 output_image = remove(input_image)
 
 output_image = output_image.convert("RGBA")
